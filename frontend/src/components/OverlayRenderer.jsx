@@ -5,8 +5,8 @@ const OverlayRenderer = ({ overlays }) => {
     <div
       style={{
         position: "absolute",
-        top: 0,
-        left: 0,
+        top: 1,
+        left: 1,
         width: "100%",
         height: "100%",
         pointerEvents: "none", // So overlays don't block video controls
